@@ -1,0 +1,25 @@
+{
+    "name": "leettastic/ebayListing",
+    "description": "Ebay listing",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adrian Cendrowski",
+            "email": "leettastic@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "~2.3",
+        "symfony/dom-crawler": "2.5.*@dev",
+        "symfony/css-selector": "2.5.*@dev"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {"": "src"}
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
